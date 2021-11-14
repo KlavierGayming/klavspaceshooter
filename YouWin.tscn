@@ -1,0 +1,76 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://vcr.tres" type="DynamicFont" id=1]
+[ext_resource path="res://bg.png" type="Texture" id=2]
+[ext_resource path="res://layer.gd" type="Script" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.133333, 0.32549, 0.65098, 1 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 92.0
+margin_top = 183.0
+margin_right = 428.0
+margin_bottom = 794.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+margin_left = 44.0
+margin_top = 100.0
+margin_right = 283.0
+margin_bottom = 149.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "
+[center]YOU WIN![/center]"
+text = "
+YOU WIN!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RetryButton" type="Button" parent="Panel"]
+margin_left = 84.0
+margin_top = 288.0
+margin_right = 256.0
+margin_bottom = 308.0
+custom_fonts/font = ExtResource( 1 )
+text = "restart"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LeaveButton" type="Button" parent="Panel"]
+margin_left = 84.0
+margin_top = 343.0
+margin_right = 253.0
+margin_bottom = 363.0
+custom_fonts/font = ExtResource( 1 )
+text = "leave to menu"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+scroll_base_offset = Vector2( 30, 30 )
+scroll_limit_begin = Vector2( 30, 30 )
+scroll_limit_end = Vector2( 60, 60 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2( 1, 900 )
+script = ExtResource( 3 )
+
+[node name="Bg" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 262, 476 )
+scale = Vector2( 5.25, 9.52 )
+texture = ExtResource( 2 )

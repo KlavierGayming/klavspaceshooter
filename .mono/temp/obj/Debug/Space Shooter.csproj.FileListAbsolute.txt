@@ -1,0 +1,9 @@
+C:\Users\MarPol\Documents\space shooter\.mono\temp\obj\Debug\Space Shooter.csproj.AssemblyReference.cache
+C:\Users\MarPol\Documents\space shooter\.mono\temp\obj\Debug\Space Shooter.AssemblyInfoInputs.cache
+C:\Users\MarPol\Documents\space shooter\.mono\temp\obj\Debug\Space Shooter.AssemblyInfo.cs
+C:\Users\MarPol\Documents\space shooter\.mono\temp\obj\Debug\Space Shooter.csproj.CoreCompileInputs.cache
+C:\Users\MarPol\Documents\space shooter\.mono\temp\bin\Debug\Space Shooter.dll
+C:\Users\MarPol\Documents\space shooter\.mono\temp\bin\Debug\Space Shooter.pdb
+C:\Users\MarPol\Documents\space shooter\.mono\temp\obj\Debug\Space Shooter.dll
+C:\Users\MarPol\Documents\space shooter\.mono\temp\obj\Debug\Space Shooter.pdb
+C:\Users\MarPol\Documents\space shooter\.mono\temp\obj\Debug\Space Shooter.GeneratedMSBuildEditorConfig.editorconfig
